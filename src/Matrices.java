@@ -256,13 +256,20 @@ public class Matrices {
 
             matriz[i][0] = genero;
             matriz[i][1] = sueldo;
-
+            /*
+             ///Codigo anterior///
             if (genero==0){
 
                 varon+=sueldo;
             }
             else if (genero==1){
                 mujer+=sueldo;
+            }
+            */
+            // Codigo nuevo
+            switch (genero){
+                case 0 -> varon+=sueldo;
+                case 1-> mujer+=sueldo;
             }
         }
         System.out.println("El sueldo medio de las mujeres es: "+(mujer/cantidad));
