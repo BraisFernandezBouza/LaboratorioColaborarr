@@ -121,8 +121,9 @@ public class Matrices {
 
         for (int i = 0; i < matriz.length; i++) {
 
-            System.out.println(Arrays.toString(matriz[i]));
-            System.out.println();
+            // agregado \n por sout
+            System.out.println(Arrays.toString(matriz[i]) + "\n");
+            // System.out.println();
         }
     }
 
