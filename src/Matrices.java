@@ -179,7 +179,7 @@ public class Matrices {
     //4. Necesitamos crear un programa para almacenar las notas de 4 alumnos (llamados “Alumno 1”, “Alumno 2”, etc.) y 5 asignaturas.
         // El usuario introducirá las notas por teclado y luego el programa mostrará la nota mínima, máxima y media de cada alumno.
         int nota;
-        int[][] matriz = new int[4][5];
+        int[][] matriz = new int[5][6];
         int max;
         int min;
         int media=0;
