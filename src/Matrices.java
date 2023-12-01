@@ -179,11 +179,11 @@ public class Matrices {
     //4. Necesitamos crear un programa para almacenar las notas de 4 alumnos (llamados “Alumno 1”, “Alumno 2”, etc.) y 5 asignaturas.
         // El usuario introducirá las notas por teclado y luego el programa mostrará la nota mínima, máxima y media de cada alumno.
         int nota;
-        int[][] matriz = new int[6][7];
+        int[][] matriz = new int[5][6];
         int max;
         int min;
-        int media=1;
-        int suma=1;
+        int media=0;
+        int suma=0;
 
         for (int i = 0; i < matriz.length; i++) {
             max=Integer.MIN_VALUE;
@@ -208,7 +208,6 @@ public class Matrices {
 
             }
             suma = media/matriz[i].length;
-
 
             System.out.println("La nota media del alumno "+(i+1)+" es: "+suma);
             System.out.println("La nota maxima del alumno "+(i+1)+" es: "+max);
